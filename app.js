@@ -1,11 +1,11 @@
 'use strict'
 
-const botaoTrocarImg = document.getElementById('trocar-img')
+const botaoTrocarImagem = document.getElementById('trocar-img')
 
 
 function trocarImagem() {
-    const img = document.getElementById('imagem').value
-    document.documentElement.style.setProperty('--bg-image', `url('./img/${serie}.jpeg)')`)
+    const imagem = document.getElementById('imagem').value
+    document.documentElement.style.setProperty('--bg-img', `url('./img/${imagem}.jpg)')`)
 }
 
-botaoTrocarImg.addEventListener('click', trocarImagem)
+botaoTrocarImagem.addEventListener('click', trocarImagem)

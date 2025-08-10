@@ -1,29 +1,32 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --bg-image: url(./img/theChosen.jpg);
-}
-
-body {
-    height: 100vh;
-    display: grid;
-    place-content: center;
-}
-
-.container {
-    display: grid;
-    gap: 12px;
-}
-
-.container input {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.container button {
-    padding: 12px;
-}
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+         :root {
+            --bg-img: url(./img/theChosen.jpg);
+        }
+        
+        body {
+            height: 100vh;
+            display: grid;
+            place-content: center;
+            background-image: var(--bg-img);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .container {
+            display: grid;
+            gap: 12px;
+        }
+        
+        .container input {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        .container button {
+            padding: 12px;
+        }
